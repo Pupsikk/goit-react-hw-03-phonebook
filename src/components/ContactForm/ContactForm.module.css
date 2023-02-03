@@ -1,0 +1,26 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.formName,
+.formNumber {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 36px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+.formLabel {
+  font-size: 20px;
+}
+.formButton {
+  font-size: 14px;
+  border-radius: 6px;
+  width: 140px;
+  height: 40px;
+  justify-content: center;
+  margin: auto;
+  color: azure;
+  background-color: rgba(0, 51, 128, 0.405);
+}
